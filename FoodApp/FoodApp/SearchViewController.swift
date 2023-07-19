@@ -13,6 +13,7 @@ class SearchViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.view.backgroundColor = .white
        setupFirtsScreen()
     }
     private func setupFirtsScreen () {

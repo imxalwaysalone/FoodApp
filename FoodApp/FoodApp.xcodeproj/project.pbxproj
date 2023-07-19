@@ -17,6 +17,8 @@
 		1B5D8EA52A659FED00816FAF /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5D8EA42A659FED00816FAF /* BasketViewController.swift */; };
 		1B5D8EA72A65A15E00816FAF /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5D8EA62A65A15E00816FAF /* AccountViewController.swift */; };
 		1B5D8EAA2A65BFEC00816FAF /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5D8EA92A65BFEC00816FAF /* Model.swift */; };
+		1BD49EB42A68509C00A66815 /* CategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD49EB22A68509C00A66815 /* CategoryModel.swift */; };
+		1BD49EB52A68509C00A66815 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BD49EB32A68509C00A66815 /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		1B5D8EA42A659FED00816FAF /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
 		1B5D8EA62A65A15E00816FAF /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		1B5D8EA92A65BFEC00816FAF /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		1BD49EB22A68509C00A66815 /* CategoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryModel.swift; sourceTree = "<group>"; };
+		1BD49EB32A68509C00A66815 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,7 @@
 		1B5D8E8B2A658E4400816FAF /* FoodApp */ = {
 			isa = PBXGroup;
 			children = (
+				1BD49EB12A68509C00A66815 /* CategoryScreen */,
 				1B5D8EA82A65BFD200816FAF /* MainScreen */,
 				1B5D8E8C2A658E4400816FAF /* AppDelegate.swift */,
 				1B5D8E8E2A658E4400816FAF /* SceneDelegate.swift */,
@@ -85,6 +90,15 @@
 				1B5D8EA92A65BFEC00816FAF /* Model.swift */,
 			);
 			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		1BD49EB12A68509C00A66815 /* CategoryScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1BD49EB22A68509C00A66815 /* CategoryModel.swift */,
+				1BD49EB32A68509C00A66815 /* CategoryViewController.swift */,
+			);
+			path = CategoryScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BD49EB52A68509C00A66815 /* CategoryViewController.swift in Sources */,
 				1B5D8EA52A659FED00816FAF /* BasketViewController.swift in Sources */,
 				1B5D8EA32A659CE300816FAF /* SearchViewController.swift in Sources */,
 				1B5D8EA72A65A15E00816FAF /* AccountViewController.swift in Sources */,
@@ -164,6 +179,7 @@
 				1B5D8E8D2A658E4400816FAF /* AppDelegate.swift in Sources */,
 				1B5D8EA12A6592E900816FAF /* MainTabBarController.swift in Sources */,
 				1B5D8E8F2A658E4400816FAF /* SceneDelegate.swift in Sources */,
+				1BD49EB42A68509C00A66815 /* CategoryModel.swift in Sources */,
 				1B5D8EAA2A65BFEC00816FAF /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
